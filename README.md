@@ -1,8 +1,5 @@
 # 📝 Notes App with Python, FastAPI & Supabase
 
-🎥 [Watch the full YouTube tutorial here]
-(https://youtu.be/ryvBJU4QqVg)
-
 This project is a simple note-taking web app built with Python, FastAPI, and Supabase
 
 It supports  
