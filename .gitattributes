@@ -1,0 +1,49 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment Variables
+.env
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# SQLite
+*.db
+*.sqlite3
+
+# Test Coverage
+.coverage
+htmlcov/
+
+# Build Files
+build/
+dist/
+*.egg-info/
+
+# FastAPI
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Supabase
+supabase/.temp/

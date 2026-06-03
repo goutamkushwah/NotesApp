@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Notepad</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="panel">
+        <h1>Welcome to Notepad</h1>
+
+        {% if not user_id %}
+        <div style="display:flex; justify-content:center; gap:15px; margin-top:20px;">
+            <a href="/register"><button class="btn-register">Register</button></a>
+            <a href="/login"><button class="btn-login">Login</button></a>
+        </div>
+        {% else %}
+        <p style="text-align:center; margin-top:20px;">
+            You are logged in. <a href="/notes">Go to your notes</a> | <a href="/logout">Logout</a>
+        </p>
+        {% endif %}
+    </div>
+</body>
+</html>
