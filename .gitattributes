@@ -47,3 +47,8 @@ dist/
 
 # Supabase
 supabase/.temp/
+
+.env
+__pycache__/
+*.pyc
+venv/
